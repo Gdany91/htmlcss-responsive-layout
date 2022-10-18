@@ -89,7 +89,7 @@
         align-items: flex-end;
         width: 68%;
         margin-bottom: 20px;
-        border-radius: 5px;
+        border-radius: 20px;
         background-color :#b5ddff ;
         min-height: 100px; /* DEBUG */
     }
@@ -127,7 +127,7 @@
         align-items: center;
         width:30%;
         margin-bottom: 20px;
-        border-radius: 5px;
+        border-radius: 20px;
         background-color: #b5ddff ;
         text-align: center;
         min-height: 300PX; /* DEBUG */
@@ -264,6 +264,9 @@
         min-height: 650PX; /* DEBUG */
     }
     .col-container{
+        display: block;
+        margin-bottom:300px;
+        line-height: 30px;
         
         
     }
