@@ -253,8 +253,46 @@
         display: none;
     }
 
-    .row {
-        ;
+    .col-large{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
-    
+    .col{
+        justify-content: center;
+        min-height: 650PX; /* DEBUG */
+    }
+    .col-container{
+        
+        
+    }
+
+    .img{
+        width: 53%;
+        margin-right: 0;
+    }
+
+    .txt{
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .txt-col{
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .txt-nth{
+        margin: 20px auto;
+    }
+
+    .fa-file-code{
+        margin-bottom: 20px;
+    }
+
+    .container.nth-1{
+        height: 1270px;
+    }
+
 }
