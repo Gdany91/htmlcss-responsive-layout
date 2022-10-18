@@ -75,6 +75,7 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        height: 700px;
         
     }
 
@@ -90,7 +91,7 @@
         margin-bottom: 20px;
         border-radius: 5px;
         background-color :#b5ddff ;
-        min-height: 300px; /* DEBUG */
+        min-height: 100px; /* DEBUG */
     }
 
     .txt{
@@ -98,7 +99,7 @@
         flex-direction: column;
         justify-content: space-between;
         margin-left: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         width: 50%;
         height: 210px;
         line-height: 25px;
@@ -118,15 +119,36 @@
         margin-right: 70px;
         
     }
-
+/* altri blocchi */
     .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width:30%;
         margin-bottom: 20px;
         border-radius: 5px;
         background-color: #b5ddff ;
-        min-height: 100PX; /* DEBUG */
+        text-align: center;
+        min-height: 300PX; /* DEBUG */
     }
     
+    .col-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 240px;
+        line-height: 20px;
+
+    }
+
+    .fa-file-code{
+        font-size: 50px;
+        color: #0084fd;
+    }
     /*piano strategico  */
 
      .container.nth-2{
