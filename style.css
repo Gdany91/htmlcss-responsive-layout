@@ -299,3 +299,31 @@
     }
 
 }
+
+
+  /* **********************************************************
+              SMARTPHONE VERSION
+************************************************************* */
+
+@media screen and (max-width: 480px) {
+
+    .col{
+        width: 100%;
+        display: block;
+        height: 600px;
+        
+    }
+
+    .col-large{
+        width: 100%;
+        
+    }
+
+    .col-container{
+        margin: 50px 30px;
+        height: 350px;
+    }
+    .img{
+        width: 80%;
+    }
+}
