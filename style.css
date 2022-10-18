@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+/* ***************************************************
+          DESKTOP LAYOUT
+*******************************************************/
+
+/* header */
+
+    header{
+        width: 100vw;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        
+        background-color: #0084fd;
+    }
+   
+    /* logo */
+    .container{
+        width: 70%;
+        
+        /* DEBUG */
+        background-color: black;
+        height: 50px;
+        
+    }
+
+    .container.nth-h{
+        margin: 25px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* main */
+
+     /* proprieta app */
+     .container.nth-1{
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+        /* DEBUG */
+        min-height:500px ;
+        background-color: white;
+     }
+
+    
+    /*piano strategico  */
+
+     .container.nth-2{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+        /* DEBUG */
+        height:500px ;
+        background-color: #9792e4;
+     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     /*  testimonials  */
+     .container.nth-3{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+        /* DEBUG */
+        height:500px ;
+        background-color: white;
+     }
+
+     /* benefits */
+     .container.nth-4{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+        /* DEBUG */
+        height:500px ;
+        background-color: #9792e4;
+     }
+
+     /* about us */
+     .container.nth-5{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+        /* DEBUG */
+        height:500px ;
+        background-color: white;
+     }
+
+
+
+     /* footer */
+
+     /*registrazione */
+     .container.row-1{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+        /* DEBUG */
+        height:300px ;
+        background-color: #9792e4;
+
+     }
+
+    .container.row-2{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+        /* DEBUG */
+        height:300px ;
+        background-color:black;
+     }
+
+     /* copyright */
+
