@@ -261,7 +261,7 @@
     }
     .col{
         justify-content: center;
-        min-height: 650PX; /* DEBUG */
+        
     }
     .col-container{
         display: block;
@@ -305,12 +305,16 @@
               SMARTPHONE VERSION
 ************************************************************* */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px ) {
+
+    .container.nth-1{
+        height: 3250px;
+    }
 
     .col{
         width: 100%;
         display: block;
-        height: 600px;
+        height: 400px;
         
     }
 
